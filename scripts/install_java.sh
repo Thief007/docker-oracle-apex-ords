@@ -6,8 +6,8 @@ cd /files
 #unzip jdk1.7.0_79.zip
 #mv jdk1.7.0_79 /usr/local/java
 
-tar -xzf jre-7u79-linux-x64.tar.gz
-mv jre1.7.0_79 /usr/local/java
+tar -xzf jre-7u80-linux-x64.tar.gz
+mv jre1.7.0_80 /usr/local/java
 echo 'JAVA_HOME=/usr/local/java' >> /etc/profile
 echo 'PATH=$PATH:$HOME/bin:$JAVA_HOME/bin' >> /etc/profile
 echo 'export JAVA_HOME' >> /etc/profile
