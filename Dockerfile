@@ -12,8 +12,6 @@ ENV PATH $ORACLE_HOME/bin:$PATH
 ENV ORACLE_SID=XE
 
 EXPOSE 22 1521 8080
-# store the configuration outside from container
-VOLUME /u01
 
 # all installation files
 COPY scripts /scripts
