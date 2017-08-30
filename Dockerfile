@@ -12,6 +12,7 @@ ENV PATH $ORACLE_HOME/bin:$PATH
 ENV ORACLE_SID=XE
 
 EXPOSE 22 1521 8080
+VOLUME ["/u01/app/oracle"]
 
 # all installation files
 COPY scripts /scripts
